@@ -1,0 +1,6 @@
+interface:
+  display_name: "Noob Command"
+  short_description: "Explain the last answer simply and concisely."
+  default_prompt: "Use $noob to explain your last answer more simply and concisely."
+policy:
+  allow_implicit_invocation: false
