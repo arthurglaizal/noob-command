@@ -40,15 +40,6 @@ Noob Command rereads the assistant's latest answer and re-explains it in a simpl
 
 It uses only the current conversation. It does not inspect files, call tools, perform new research, or change anything.
 
-## Noob vs Ask vs Session Recap
-
-| Command | Use it when you want to… |
-| --- | --- |
-| **Noob** | understand the assistant's last answer more easily |
-| [**Ask Mode**](https://github.com/arthurglaizal/ask-mode) | ask a new question about a codebase without edits |
-| [**Session Recap**](https://github.com/arthurglaizal/session-recap) | summarize what happened across the work session |
-| [**WaitGo**](https://github.com/arthurglaizal/wait-go) | queue several instructions before the assistant starts |
-
 ## Limitations
 
 - Noob Command can only simplify conversation content still available to the assistant.
@@ -122,6 +113,16 @@ noob-command/
     ├── noob-command.mp4
     └── noob-command.png
 ```
+
+## More AI workflow commands
+
+Small, portable commands for Claude Code, Codex, and any AI assistant.
+
+| Command | What it does |
+| --- | --- |
+| [WaitGo](https://github.com/arthurglaizal/wait-go) | Batches your instructions, then executes only when you say go. |
+| [Session Recap](https://github.com/arthurglaizal/session-recap) | Recaps what you did in the current session and what to pick up next. |
+| [Ask Mode](https://github.com/arthurglaizal/ask-mode) | Lets you question your codebase without the assistant changing anything. |
 
 ## Support
 
