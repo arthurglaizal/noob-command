@@ -1,4 +1,4 @@
-Install a reusable Claude Code skill called **Noob Command**.
+Install a reusable Claude Code skill called **Noob**.
 
 Goal: give me `/noob`, a one-shot command that re-explains Claude's latest answer in simpler, shorter language without using tools or changing anything.
 
