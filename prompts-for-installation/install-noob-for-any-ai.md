@@ -1,4 +1,4 @@
-Create a reusable command, skill, or equivalent called **Noob Command** for the current AI assistant.
+Create a reusable command, skill, or equivalent called **Noob** for the current AI assistant.
 
 Goal: let me invoke `noob` after a complex or long answer to receive a much simpler, shorter explanation without any action or modification.
 

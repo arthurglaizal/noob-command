@@ -1,5 +1,5 @@
 interface:
-  display_name: "Noob Command"
+  display_name: "Noob"
   short_description: "Explain the last answer simply and concisely."
   default_prompt: "Use $noob to explain your last answer more simply and concisely."
 policy:

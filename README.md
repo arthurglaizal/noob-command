@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="public/noob-command.gif" alt="Noob Command demo" width="100%">
+  <img src="public/noob-command.gif" alt="Noob demo" width="100%">
 </p>
 
-# Noob Command
+# Noob
 
 > **Turn the last AI answer into something immediately understandable.**
 
-A portable, one-shot command for Claude Code, Codex, other AI coding assistants, and regular AI chats.
+A portable, one-shot skill for Claude Code, Codex, other AI coding assistants, and regular AI chats.
 
 Use it when an answer is too long, too technical, or simply more detailed than you need.
 
 ## How to use
 
-Invoke Noob Command immediately after the answer you want simplified:
+Invoke Noob immediately after the answer you want simplified:
 
 ```txt
 /noob   # Claude Code
@@ -30,7 +30,7 @@ Each invocation simplifies one answer. It does not activate a persistent mode.
 
 ## What it does
 
-Noob Command rereads the assistant's latest answer and re-explains it in a simpler, easier-to-understand, and more concise way. It:
+Noob rereads the assistant's latest answer and re-explains it in a simpler, easier-to-understand, and more concise way. It:
 
 - gives the bottom line first;
 - uses everyday language and removes unnecessary technical detail;
@@ -42,9 +42,9 @@ It uses only the current conversation. It does not inspect files, call tools, pe
 
 ## Limitations
 
-- Noob Command can only simplify conversation content still available to the assistant.
+- Noob can only simplify conversation content still available to the assistant.
 - It does not verify the previous answer or add new analysis.
-- The no-action boundary is instruction-based. The command stays in the main conversation because an isolated read-only subagent would not have access to the answer it needs to simplify.
+- The no-action boundary is instruction-based. The skill stays in the main conversation because an isolated read-only subagent would not have access to the answer it needs to simplify.
 
 ## Install in Claude Code
 
@@ -94,7 +94,7 @@ Codex uses `$noob`, not a custom root slash command.
 ## Repository structure
 
 ```txt
-noob-command/
+noob/
 ├── README.md
 ├── LICENSE
 ├── .gitignore
@@ -114,17 +114,17 @@ noob-command/
     └── noob-command.png
 ```
 
-## More AI workflow commands
+## More AI workflow skills
 
-Small, portable commands for Claude Code, Codex, and any AI assistant.
+Small, portable skills for Claude Code, Codex, and any AI assistant.
 
-| Command | What it does |
+| Skill | What it does |
 | --- | --- |
 | [WaitGo](https://github.com/arthurglaizal/wait-go) | Batches your instructions, then executes only when you say go. |
 | [Session Recap](https://github.com/arthurglaizal/session-recap) | Recaps what you did in the current session and what to pick up next. |
 | [Ask Mode](https://github.com/arthurglaizal/ask-mode) | Lets you question your codebase without the assistant changing anything. |
 | [AI Handoff](https://github.com/arthurglaizal/ai-handoff) | Packages the current context so another AI can continue the work. |
-| [FYI](https://github.com/arthurglaizal/fyi-command) | Gives your assistant context without giving it a task. |
+| [FYI](https://github.com/arthurglaizal/fyi) | Gives your assistant context without giving it a task. |
 
 ## Support
 

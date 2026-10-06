@@ -1,4 +1,4 @@
-Install a reusable Codex skill called **Noob Command**.
+Install a reusable Codex skill called **Noob**.
 
 Goal: give me `$noob`, a one-shot command that re-explains the assistant's latest answer in simpler, shorter language without using tools or changing anything.
 
@@ -38,7 +38,7 @@ Use this description if the format supports one:
 Re-explain the assistant's most recent answer in a simpler, easier-to-understand, and more concise way, without taking action or changing anything. Use only when the user explicitly invokes `$noob`.
 ```
 
-If supported, present it as **Noob Command**, use the short description `Explain the last answer simply and concisely.`, and disable implicit invocation. Do not create a legacy prompt unless I explicitly ask for it.
+If supported, present it as **Noob**, use the short description `Explain the last answer simply and concisely.`, and disable implicit invocation. Do not create a legacy prompt unless I explicitly ask for it.
 
 ## Finish
 

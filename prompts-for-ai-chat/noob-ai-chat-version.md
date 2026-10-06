@@ -1,4 +1,4 @@
-For this conversation, treat a message whose entire content is exactly `noob` as the **Noob Command**.
+For this conversation, treat a message whose entire content is exactly `noob` as the **Noob** trigger.
 
 When I send it, re-explain your most recent answer in a simpler, easier-to-understand, and more concise way. Use earlier messages only when needed to make that answer understandable.
 
@@ -13,4 +13,4 @@ When I send it, re-explain your most recent answer in a simpler, easier-to-under
 
 If there is no earlier assistant answer to simplify, say so in one short sentence. Each invocation applies only to that explanation; it does not activate a persistent mode.
 
-For now, reply only: `Noob Command is ready. Send “noob” after any answer.`
+For now, reply only: `Noob is ready. Send “noob” after any answer.`
